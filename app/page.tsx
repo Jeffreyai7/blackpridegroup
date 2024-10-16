@@ -1,10 +1,10 @@
 import Image from "next/image";
+import Covertemplate from "./Components/templates/covertemplate";
 
 
 export default function Home() {
-  return (
-  <div>
-    hello it is the home page
-  </div>
-      );
+  return (<>
+  hello it is the home page
+  </>
+    );
 }

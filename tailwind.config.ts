@@ -16,6 +16,11 @@ const config: Config = {
         hovergold: "var(--hovergold)",
         footerground: "var(--footerbg)",
       },
+      backgroundColor:{
+        backgwhite: "var(--majorwhite)",
+        foreblack: "var(--majorblack)",
+
+      },
       borderColor:{
       customborder: "var(--brdcolor)"
       } ,

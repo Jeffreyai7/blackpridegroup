@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Lusitana } from "next/font/google";
 import "./globals.css";
+import Covertemplate from "./Components/templates/covertemplate";
 
 
 export const metadata: Metadata = {
@@ -19,7 +20,9 @@ export default function RootLayout({
       <body
         className={`$ antialiased`}
       >
+        <Covertemplate>
         {children}
+        </Covertemplate>
       </body>
     </html>
   );
