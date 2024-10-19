@@ -16,7 +16,7 @@ const Mediumnav = ({handleClick, isopened}: Props) => {
 <ul className='flex flex-col py-2 h-[50%] justify-between items-center text-white font-extrabold'>
             {
                 navlinks.map((el, index) => {
-                    return <li onClick={handleClick} ><Link className={`transition-all hover:text-foregold hover:border-foregold `} key={index} href={el.link}>{el.name}</Link> </li>
+                    return <li onClick={handleClick} key={index}><Link className={`transition-all hover:text-foregold hover:border-foregold `}  href={el.link}>{el.name}</Link> </li>
                
                   })
             }
