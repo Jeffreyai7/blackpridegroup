@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import { Lusitana } from "next/font/google";
 import "./globals.css";
 import Covertemplate from "./Components/templates/covertemplate";
+import { inter } from "./fonts/fonts";
 
 
 export const metadata: Metadata = {
@@ -18,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`$ antialiased`}
+        className={`${inter.className} antialiased`}
       >
         <Covertemplate>
         {children}

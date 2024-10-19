@@ -14,8 +14,13 @@ const config: Config = {
         foregold: "var(--majorgold)",
         textgold: "var(--textgold)",
         hovergold: "var(--hovergold)",
-        footerground: "var(--footerbg)",
       },
+      
+      backgroundImage: {
+        footerground: "var(--footerbg)",
+        hero :"var(--herobackground)"
+      },
+
       backgroundColor:{
         backgwhite: "var(--majorwhite)",
         foreblack: "var(--majorblack)",

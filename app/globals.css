@@ -17,8 +17,9 @@
     --majorgold: rgb(255, 215, 0);
     --textgold: rgb(248, 226, 49);
     --hovercolor:  rgba(255, 215, 0, 0.85);
-    --footerbg: linear-gradient(var(--majorblack), var(--majorgold));
-    --brdcolor: 2px solid var(var(--footerbg))
+    --footerbg: linear-gradient( var(--majorgold), var(--majorblack));
+    --brdcolor: 2px solid var(var(--footerbg));
+    /* background pictures */
+    --herobackground:  url("/assets/svg/dots.svg");
 }
-
 
